@@ -20,7 +20,6 @@ PRODUCT_COPY_FILES += \
 	$(vendor_path)/lib/libcaps.so:/system/lib/libcaps.so \
 	$(vendor_path)/lib/libcryptoki.so:/system/lib/libcryptoki.so \
 	$(vendor_path)/lib/libdmengine.so:/system/lib/libdmengine.so \
-	$(vendor_path)/lib/libdmjavaplugin.so:/system/lib/libdmjavaplugin.so \
 	$(vendor_path)/lib/libimage_jni.so:/system/lib/libimage_jni.so \
 	$(vendor_path)/lib/libjanus.so:/system/lib/libjanus.so \
 	$(vendor_path)/lib/libjanus_jni.so:/system/lib/libjanus_jni.so \
@@ -37,10 +36,8 @@ PRODUCT_COPY_FILES += \
 	$(vendor_path)/lib/libnativedrm1.so:/system/lib/libnativedrm1.so \
 	$(vendor_path)/lib/libpkip.so:/system/lib/libpkip.so \
 	$(vendor_path)/lib/libpppd_plugin.so:/system/lib/libpppd_plugin.so \
-	$(vendor_path)/lib/libprojectM.so:/system/lib/libprojectM.so \
 	$(vendor_path)/lib/libprovlib.so:/system/lib/libprovlib.so \
 	$(vendor_path)/lib/libscalado.so:/system/lib/libscalado.so \
-	$(vendor_path)/lib/libsmapi.so:/system/lib/libsmapi.so \
 	$(vendor_path)/lib/libssmgr.so:/system/lib/libssmgr.so \
 	$(vendor_path)/lib/libaudio.so:/system/lib/libaudio.so \
 	$(vendor_path)/lib/libcamera.so:/system/lib/libcamera.so \
@@ -48,14 +45,12 @@ PRODUCT_COPY_FILES += \
 	$(vendor_path)/lib/libril_rds.so:/system/lib/libril_rds.so \
 	$(vendor_path)/lib/librds_util.so:/system/lib/librds_util.so \
 	$(vendor_path)/lib/libpppd_plugin-ril.so:/system/lib/libpppd_plugin-ril.so \
-	$(vendor_path)/lib/libusc.so:/system/lib/libusc.so \
 	$(vendor_path)/lib/libmoto_gps.so:obj/lib/libmoto_gps.so \
 	$(vendor_path)/lib/libaudio.so:obj/lib/libaudio.so \
 	$(vendor_path)/lib/libcamera.so:obj/lib/libcamera.so \
 	$(vendor_path)/lib/libnmea.so:obj/lib/libnmea.so \
 	$(vendor_path)/lib/libril_rds.so:obj/lib/libril_rds.so \
 	$(vendor_path)/lib/librds_util.so:obj/lib/librds_util.so \
-	$(vendor_path)/lib/libaudio.so:system/lib/libaudio.so \
 	$(vendor_path)/lib/libcaps.so:system/lib/libcaps.so \
 	$(vendor_path)/lib/libmotdb.so:system/lib/libmotdb.so \
 	$(vendor_path)/lib/libmsl_interface.so:system/lib/libmsl_interface.so \
