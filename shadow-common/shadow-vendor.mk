@@ -102,9 +102,6 @@ PRODUCT_COPY_FILES += \
 
 #Moto etc
 PRODUCT_COPY_FILES += \
-        $(vendor_path)/etc/firmware/wl1271.bin:system/etc/firmware/wl1271.bin \
-        $(vendor_path)/etc/wifi/fw_tiwlan_ap.bin:system/etc/wifi/fw_tiwlan_ap.bin \
-        $(vendor_path)/etc/wifi/fw_wlan1271.bin:system/etc/wifi/fw_wlan1271.bin \
         $(vendor_path)/etc/cameraCalFileDef5M.bin:system/etc/cameraCalFileDef5M.bin \
         $(vendor_path)/etc/cameraCalFileDef8M.bin:system/etc/cameraCalFileDef8M.bin \
         $(vendor_path)/etc/mot_ise_imager_cfg.bin:system/etc/mot_ise_imager_cfg.bin \
@@ -149,18 +146,12 @@ PRODUCT_COPY_FILES += \
 	$(vendor_path)/bin/chat-ril:system/bin/chat-ril \
 	$(vendor_path)/bin/ecckeyd:system/bin/ecckeyd \
 	$(vendor_path)/bin/location:system/bin/location \
-	$(vendor_path)/bin/mkfs.exfat:system/bin/mkfs.exfat \
-	$(vendor_path)/bin/mount.exfat:system/bin/mount.exfat \
 	$(vendor_path)/bin/mdm_panicd:system/bin/mdm_panicd \
 	$(vendor_path)/bin/pppd:system/bin/pppd \
 	$(vendor_path)/bin/pppd-ril:system/bin/pppd-ril \
 	$(vendor_path)/bin/rild:system/bin/rild \
 	$(vendor_path)/bin/SaveBPVer:system/bin/SaveBPVer \
 	$(vendor_path)/bin/testpppd:system/bin/testpppd \
-	$(vendor_path)/bin/ntfs-3g:system/bin/ntfs-3g \
-	$(vendor_path)/bin/ntfs-3g.probe:system/bin/ntfs-3g.probe \
-	$(vendor_path)/bin/fsck.exfat:system/bin/fsck.exfat \
-	$(vendor_path)/bin/secclkd:system/bin/secclkd \
 	$(vendor_path)/bin/battd:system/bin/battd \
 
 
