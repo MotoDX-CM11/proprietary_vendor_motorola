@@ -48,6 +48,8 @@ PRODUCT_COPY_FILES += \
 	$(vendor_path)/lib/libmoto_gps.so:obj/lib/libmoto_gps.so \
 	$(vendor_path)/lib/libaudio.so:obj/lib/libaudio.so \
 	$(vendor_path)/lib/libcamera.so:obj/lib/libcamera.so \
+	$(vendor_path)/lib/libsmiledetect.so:obj/lib/libsmiledetect.so \
+	$(vendor_path)/lib/libarcsoft.so:obj/lib/libarcsoft.so \
 	$(vendor_path)/lib/libnmea.so:obj/lib/libnmea.so \
 	$(vendor_path)/lib/libril_rds.so:obj/lib/libril_rds.so \
 	$(vendor_path)/lib/librds_util.so:obj/lib/librds_util.so \
