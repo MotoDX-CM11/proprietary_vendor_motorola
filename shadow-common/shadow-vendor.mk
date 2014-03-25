@@ -41,6 +41,8 @@ PRODUCT_COPY_FILES += \
 	$(vendor_path)/lib/libssmgr.so:/system/lib/libssmgr.so \
 	$(vendor_path)/lib/libaudio.so:/system/lib/libaudio.so \
 	$(vendor_path)/lib/libcamera.so:/system/lib/libcamera.so \
+	$(vendor_path)/lib/libsmiledetect.so:/system/lib/libsmiledetect.so \
+	$(vendor_path)/lib/libarcsoft.so:/system/lib/libarcsoft.so \
 	$(vendor_path)/lib/libnmea.so:/system/lib/libnmea.so \
 	$(vendor_path)/lib/libril_rds.so:/system/lib/libril_rds.so \
 	$(vendor_path)/lib/librds_util.so:/system/lib/librds_util.so \
