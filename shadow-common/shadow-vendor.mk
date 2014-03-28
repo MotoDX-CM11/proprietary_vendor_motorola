@@ -30,6 +30,7 @@ PRODUCT_COPY_FILES += \
 	$(vendor_path)/lib/libmoto_netutil.so:/system/lib/libmoto_netutil.so \
 	$(vendor_path)/lib/libmoto_ril.so:/system/lib/libmoto_ril.so \
 	$(vendor_path)/lib/libmotodbgutils.so:/system/lib/libmotodbgutils.so \
+	$(vendor_path)/lib/libPERF.so:/system/lib/libPERF.so \
 	$(vendor_path)/lib/libOMX.TI.720P.Decoder.so:/system/lib/libOMX.TI.720P.Decoder.so \
 	$(vendor_path)/lib/libOMX.TI.720P.Encoder.so:/system/lib/libOMX.TI.720P.Encoder.so \
 	$(vendor_path)/lib/libOMX.TI.JPEG.Encoder.so:/system/lib/libOMX.TI.JPEG.Encoder.so \
@@ -47,14 +48,7 @@ PRODUCT_COPY_FILES += \
 	$(vendor_path)/lib/libril_rds.so:/system/lib/libril_rds.so \
 	$(vendor_path)/lib/librds_util.so:/system/lib/librds_util.so \
 	$(vendor_path)/lib/libpppd_plugin-ril.so:/system/lib/libpppd_plugin-ril.so \
-	$(vendor_path)/lib/libmoto_gps.so:obj/lib/libmoto_gps.so \
 	$(vendor_path)/lib/libaudio.so:obj/lib/libaudio.so \
-	$(vendor_path)/lib/libcamera.so:obj/lib/libcamera.so \
-	$(vendor_path)/lib/libsmiledetect.so:obj/lib/libsmiledetect.so \
-	$(vendor_path)/lib/libarcsoft.so:obj/lib/libarcsoft.so \
-	$(vendor_path)/lib/libnmea.so:obj/lib/libnmea.so \
-	$(vendor_path)/lib/libril_rds.so:obj/lib/libril_rds.so \
-	$(vendor_path)/lib/librds_util.so:obj/lib/librds_util.so \
 	$(vendor_path)/lib/libcaps.so:system/lib/libcaps.so \
 	$(vendor_path)/lib/libmotdb.so:system/lib/libmotdb.so \
 	$(vendor_path)/lib/libmsl_interface.so:system/lib/libmsl_interface.so \
@@ -68,7 +62,6 @@ PRODUCT_COPY_FILES += \
 	$(vendor_path)/lib/libHPImgApi.so:system/lib/libHPImgApi.so \
 	$(vendor_path)/lib/libbattd.so:system/lib/libbattd.so \
 	$(vendor_path)/lib/libcryptoki.so:system/lib/libcryptoki.so \
-	$(vendor_path)/lib/libmotodbgutils.so:system/lib/libmotodbgutils.so \
 	$(vendor_path)/lib/libsmapi.so:system/lib/libsmapi.so \
 	$(vendor_path)/lib/libtpa.so:system/lib/libtpa.so \
 	$(vendor_path)/lib/libtpa_core.so:system/lib/libtpa_core.so \
@@ -106,7 +99,6 @@ PRODUCT_COPY_FILES += \
 
 #Moto etc
 PRODUCT_COPY_FILES += \
-        $(vendor_path)/etc/cameraCalFileDef5M.bin:system/etc/cameraCalFileDef5M.bin \
         $(vendor_path)/etc/cameraCalFileDef8M.bin:system/etc/cameraCalFileDef8M.bin \
         $(vendor_path)/etc/mot_ise_imager_cfg.bin:system/etc/mot_ise_imager_cfg.bin \
         $(vendor_path)/etc/pppd-ril.options:/system/etc/ppp/peers/pppd-ril.options \
