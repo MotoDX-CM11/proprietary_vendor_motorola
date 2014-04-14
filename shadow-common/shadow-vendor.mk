@@ -156,10 +156,7 @@ PRODUCT_COPY_FILES += \
 #app
 PRODUCT_COPY_FILES += \
 	$(vendor_path)/app/AudioEffectSettings.apk:system/app/AudioEffectSettings.apk \
-	$(vendor_path)/app/CompassCalibrate.apk:system/app/CompassCalibrate.apk \
-	$(vendor_path)/app/PhoneConfig.apk:/system/app/PhoneConfig.apk \
-	$(vendor_path)/app/ProgramMenu.apk:/system/app/ProgramMenu.apk \
-	$(vendor_path)/app/ProgramMenuSystem.apk:/system/app/ProgramMenuSystem.apk 
+	$(vendor_path)/app/CompassCalibrate.apk:system/app/CompassCalibrate.apk
 
 #extra
 PRODUCT_COPY_FILES += \
