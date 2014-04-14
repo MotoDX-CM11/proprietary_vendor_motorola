@@ -50,7 +50,6 @@ PRODUCT_COPY_FILES += \
 	$(vendor_path)/lib/librds_util.so:system/lib/librds_util.so \
 	$(vendor_path)/lib/libpppd_plugin-ril.so:system/lib/libpppd_plugin-ril.so \
 	$(vendor_path)/lib/libmotdb.so:system/lib/libmotdb.so \
-	$(vendor_path)/lib/libmsl_interface.so:system/lib/libmsl_interface.so \
 	$(vendor_path)/lib/libssmgr.so:system/lib/libssmgr.so \
 	$(vendor_path)/lib/libOMX.TI.mp4.splt.Encoder.so:system/lib/libOMX.TI.mp4.splt.Encoder.so \
 	$(vendor_path)/lib/libOMX.TI.h264.splt.Encoder.so:system/lib/libOMX.TI.h264.splt.Encoder.so \
@@ -131,7 +130,6 @@ PRODUCT_COPY_FILES += \
 
 # bin
 PRODUCT_COPY_FILES += \
-	$(vendor_path)/bin/protocol_driver:system/bin/protocol_driver \
 	$(vendor_path)/bin/ap_gain.bin:system/bin/ap_gain.bin \
 	$(vendor_path)/bin/ap_gain_mmul.bin:system/bin/ap_gain_mmul.bin \
 	$(vendor_path)/bin/fmradioserver:system/bin/fmradioserver \
@@ -139,7 +137,6 @@ PRODUCT_COPY_FILES += \
 	$(vendor_path)/bin/akmd2:system/bin/akmd2 \
 	$(vendor_path)/bin/chat-ril:system/bin/chat-ril \
 	$(vendor_path)/bin/ecckeyd:system/bin/ecckeyd \
-	$(vendor_path)/bin/location:system/bin/location \
 	$(vendor_path)/bin/mdm_panicd:system/bin/mdm_panicd \
 	$(vendor_path)/bin/pppd:system/bin/pppd \
 	$(vendor_path)/bin/pppd-ril:system/bin/pppd-ril \
