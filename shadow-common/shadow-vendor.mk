@@ -59,9 +59,12 @@ PRODUCT_COPY_FILES += \
 	$(vendor_path)/lib/liboemcamera.so:system/lib/liboemcamera.so \
 	$(vendor_path)/lib/libHPImgApi.so:system/lib/libHPImgApi.so \
 	$(vendor_path)/lib/libdashplayer.so:system/lib/libdashplayer.so \
+	$(vendor_path)/lib/libhdmi.so:system/lib/libhdmi.so \
 	$(vendor_path)/lib/libsmapi.so:system/lib/libsmapi.so \
 	$(vendor_path)/lib/libtpa.so:system/lib/libtpa.so \
 	$(vendor_path)/lib/libtpa_core.so:system/lib/libtpa_core.so \
+	$(vendor_path)/lib/libWVStreamControlAPI_L3.so:system/lib/libWVStreamControlAPI_L3.so \
+	$(vendor_path)/lib/libwvm.so:system/lib/libwvm.so \
 	$(vendor_path)/lib/hw/gps.shadow.so:system/lib/hw/gps.shadow.so \
 	$(vendor_path)/lib/dsp/baseimage.dof:system/lib/dsp/baseimage.dof \
 	$(vendor_path)/lib/dsp/conversions.dll64P:system/lib/dsp/conversions.dll64P \
@@ -90,25 +93,23 @@ PRODUCT_COPY_FILES += \
 	$(vendor_path)/lib/dsp/720p_h264venc_sn.dll64P:system/lib/dsp/720p_h264venc_sn.dll64P \
 	$(vendor_path)/lib/dsp/720p_mp4venc_sn.dll64P:system/lib/dsp/720p_mp4venc_sn.dll64P \
 	$(vendor_path)/lib/dsp/wmv9dec_sn.dll64P:system/lib/dsp/wmv9dec_sn.dll64P \
-	$(vendor_path)/lib/dsp/vpp_sn.dll64P:system/lib/dsp/vpp_sn.dll64P \
-	$(vendor_path)/lib/libWVStreamControlAPI_L3.so:system/lib/libWVStreamControlAPI_L3.so \
-	$(vendor_path)/lib/libwvm.so:system/lib/libwvm.so
+	$(vendor_path)/lib/dsp/vpp_sn.dll64P:system/lib/dsp/vpp_sn.dll64P
 
 #Moto etc
 PRODUCT_COPY_FILES += \
         $(vendor_path)/etc/cameraCalFileDef8M.bin:system/etc/cameraCalFileDef8M.bin \
         $(vendor_path)/etc/mot_ise_imager_cfg.bin:system/etc/mot_ise_imager_cfg.bin \
-        $(vendor_path)/etc/pppd-ril.options:/system/etc/ppp/peers/pppd-ril.options \
-        $(vendor_path)/etc/mancacerts.zip:/system/etc/security/mancacerts.zip \
-        $(vendor_path)/etc/oprcacerts.zip:/system/etc/security/oprcacerts.zip \
-        $(vendor_path)/etc/suplcerts.bks:/system/etc/security/suplcerts.bks \
-        $(vendor_path)/etc/priority_notifications_config.xml:/system/etc/security/priority_notifications_config.xml \
-        $(vendor_path)/etc/smc_android_cfg.ini:/system/etc/smc_android_cfg.ini \
-        $(vendor_path)/etc/smc_android_cfg_256.ini:/system/etc/smc_android_cfg_256.ini \
-        $(vendor_path)/etc/smc_pa.ift:/system/etc/smc_pa.ift \
-        $(vendor_path)/etc/smc_pa_pk_4_ipa.bin:/system/etc/smc_pa_pk_4_ipa.bin \
-        $(vendor_path)/etc/supportedlocales.conf:/system/etc/supportedlocales.conf \
-        $(vendor_path)/etc/vzwpubagps.cer:/system/etc/vzwpubagps.cer
+        $(vendor_path)/etc/pppd-ril.options:system/etc/ppp/peers/pppd-ril.options \
+        $(vendor_path)/etc/mancacerts.zip:system/etc/security/mancacerts.zip \
+        $(vendor_path)/etc/oprcacerts.zip:system/etc/security/oprcacerts.zip \
+        $(vendor_path)/etc/suplcerts.bks:system/etc/security/suplcerts.bks \
+        $(vendor_path)/etc/priority_notifications_config.xml:system/etc/security/priority_notifications_config.xml \
+        $(vendor_path)/etc/smc_android_cfg.ini:system/etc/smc_android_cfg.ini \
+        $(vendor_path)/etc/smc_android_cfg_256.ini:system/etc/smc_android_cfg_256.ini \
+        $(vendor_path)/etc/smc_pa.ift:system/etc/smc_pa.ift \
+        $(vendor_path)/etc/smc_pa_pk_4_ipa.bin:system/etc/smc_pa_pk_4_ipa.bin \
+        $(vendor_path)/etc/supportedlocales.conf:system/etc/supportedlocales.conf \
+        $(vendor_path)/etc/vzwpubagps.cer:system/etc/vzwpubagps.cer
 
 # TI SGX DDK 1.8 ES 5.x
 PRODUCT_COPY_FILES += \
@@ -137,6 +138,7 @@ PRODUCT_COPY_FILES += \
 	$(vendor_path)/bin/akmd2:system/bin/akmd2 \
 	$(vendor_path)/bin/chat-ril:system/bin/chat-ril \
 	$(vendor_path)/bin/ecckeyd:system/bin/ecckeyd \
+	$(vendor_path)/bin/tcmd:system/bin/tcmd \
 	$(vendor_path)/bin/mdm_panicd:system/bin/mdm_panicd \
 	$(vendor_path)/bin/pppd:system/bin/pppd \
 	$(vendor_path)/bin/pppd-ril:system/bin/pppd-ril \
