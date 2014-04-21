@@ -16,6 +16,9 @@ vendor_path = vendor/motorola/shadow-common
 
 # LIBS
 PRODUCT_COPY_FILES += \
+	$(vendor_path)/lib/libaudio.so:obj/lib/libaudio.so \
+	$(vendor_path)/lib/libcamera.so:obj/lib/libcamera.so \
+	$(vendor_path)/lib/libmoto_ril.so:obj/lib/libril_rds.so \
 	$(vendor_path)/lib/libbattd.so:system/lib/libbattd.so \
 	$(vendor_path)/lib/libcaps.so:system/lib/libcaps.so \
 	$(vendor_path)/lib/libcryptoki.so:system/lib/libcryptoki.so \
@@ -26,7 +29,6 @@ PRODUCT_COPY_FILES += \
 	$(vendor_path)/lib/libmot_led.so:system/lib/libmot_led.so \
 	$(vendor_path)/lib/libmotdrm1.so:system/lib/libmotdrm1.so \
 	$(vendor_path)/lib/libmotdrm1_jni.so:system/lib/libmotdrm1_jni.so \
-	$(vendor_path)/lib/libmoto_gps.so:system/lib/libmoto_gps.so \
 	$(vendor_path)/lib/libmoto_netutil.so:system/lib/libmoto_netutil.so \
 	$(vendor_path)/lib/libmoto_ril.so:system/lib/libmoto_ril.so \
 	$(vendor_path)/lib/libmotodbgutils.so:system/lib/libmotodbgutils.so \
@@ -41,7 +43,6 @@ PRODUCT_COPY_FILES += \
 	$(vendor_path)/lib/libscalado.so:system/lib/libscalado.so \
 	$(vendor_path)/lib/libssmgr.so:system/lib/libssmgr.so \
 	$(vendor_path)/lib/libaudio.so:system/lib/libaudio.so \
-	$(vendor_path)/lib/libaudio.so:obj/lib/libaudio.so \
 	$(vendor_path)/lib/libcamera.so:system/lib/libcamera.so \
 	$(vendor_path)/lib/libsmiledetect.so:system/lib/libsmiledetect.so \
 	$(vendor_path)/lib/libarcsoft.so:system/lib/libarcsoft.so \
