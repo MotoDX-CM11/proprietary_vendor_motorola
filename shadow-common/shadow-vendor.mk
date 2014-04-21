@@ -149,8 +149,8 @@ PRODUCT_COPY_FILES += \
 
 
 #location proxy
-PRODUCT_COPY_FILES += \
-	$(vendor_path)/framework/com.motorola.android.location.jar:system/framework/com.motorola.android.location.jar
+#PRODUCT_COPY_FILES += \
+#	$(vendor_path)/framework/com.motorola.android.location.jar:system/framework/com.motorola.android.location.jar
 
 #app
 PRODUCT_COPY_FILES += \
