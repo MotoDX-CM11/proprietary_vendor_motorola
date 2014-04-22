@@ -60,7 +60,6 @@ PRODUCT_COPY_FILES += \
 	$(vendor_path)/lib/liboemcamera.so:system/lib/liboemcamera.so \
 	$(vendor_path)/lib/libHPImgApi.so:system/lib/libHPImgApi.so \
 	$(vendor_path)/lib/libdashplayer.so:system/lib/libdashplayer.so \
-	$(vendor_path)/lib/libhdmi.so:system/lib/libhdmi.so \
 	$(vendor_path)/lib/libsmapi.so:system/lib/libsmapi.so \
 	$(vendor_path)/lib/libtpa.so:system/lib/libtpa.so \
 	$(vendor_path)/lib/libtpa_core.so:system/lib/libtpa_core.so \
@@ -95,6 +94,7 @@ PRODUCT_COPY_FILES += \
 	$(vendor_path)/lib/dsp/720p_mp4venc_sn.dll64P:system/lib/dsp/720p_mp4venc_sn.dll64P \
 	$(vendor_path)/lib/dsp/wmv9dec_sn.dll64P:system/lib/dsp/wmv9dec_sn.dll64P \
 	$(vendor_path)/lib/dsp/vpp_sn.dll64P:system/lib/dsp/vpp_sn.dll64P
+#	$(vendor_path)/lib/libhdmi.so:system/lib/libhdmi.so \
 
 #Moto etc
 PRODUCT_COPY_FILES += \
@@ -139,7 +139,6 @@ PRODUCT_COPY_FILES += \
 	$(vendor_path)/bin/akmd2:system/bin/akmd2 \
 	$(vendor_path)/bin/chat-ril:system/bin/chat-ril \
 	$(vendor_path)/bin/ecckeyd:system/bin/ecckeyd \
-	$(vendor_path)/bin/tcmd:system/bin/tcmd \
 	$(vendor_path)/bin/mdm_panicd:system/bin/mdm_panicd \
 	$(vendor_path)/bin/pppd:system/bin/pppd \
 	$(vendor_path)/bin/pppd-ril:system/bin/pppd-ril \
@@ -147,7 +146,7 @@ PRODUCT_COPY_FILES += \
 	$(vendor_path)/bin/SaveBPVer:system/bin/SaveBPVer \
 	$(vendor_path)/bin/testpppd:system/bin/testpppd \
 	$(vendor_path)/bin/battd:system/bin/battd \
-
+#	$(vendor_path)/bin/tcmd:system/bin/tcmd \
 
 #location proxy
 #PRODUCT_COPY_FILES += \
