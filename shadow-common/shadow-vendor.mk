@@ -94,7 +94,6 @@ PRODUCT_COPY_FILES += \
 	$(vendor_path)/lib/dsp/720p_mp4venc_sn.dll64P:system/lib/dsp/720p_mp4venc_sn.dll64P \
 	$(vendor_path)/lib/dsp/wmv9dec_sn.dll64P:system/lib/dsp/wmv9dec_sn.dll64P \
 	$(vendor_path)/lib/dsp/vpp_sn.dll64P:system/lib/dsp/vpp_sn.dll64P
-#	$(vendor_path)/lib/libhdmi.so:system/lib/libhdmi.so \
 
 #Moto etc
 PRODUCT_COPY_FILES += \
@@ -146,12 +145,7 @@ PRODUCT_COPY_FILES += \
 	$(vendor_path)/bin/rild:system/bin/rild \
 	$(vendor_path)/bin/SaveBPVer:system/bin/SaveBPVer \
 	$(vendor_path)/bin/testpppd:system/bin/testpppd \
-	$(vendor_path)/bin/battd:system/bin/battd \
-#	$(vendor_path)/bin/tcmd:system/bin/tcmd \
-
-#location proxy
-#PRODUCT_COPY_FILES += \
-#	$(vendor_path)/framework/com.motorola.android.location.jar:system/framework/com.motorola.android.location.jar
+	$(vendor_path)/bin/battd:system/bin/battd
 
 #app
 PRODUCT_COPY_FILES += \
