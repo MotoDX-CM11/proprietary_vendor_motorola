@@ -135,7 +135,6 @@ PRODUCT_COPY_FILES += \
 	$(vendor_path)/bin/ap_gain.bin:system/bin/ap_gain.bin \
 	$(vendor_path)/bin/ap_gain_mmul.bin:system/bin/ap_gain_mmul.bin \
 	$(vendor_path)/bin/fmradioserver:system/bin/fmradioserver \
-	$(vendor_path)/bin/brcm_guci_drv:system/bin/brcm_guci_drv \
 	$(vendor_path)/bin/akmd2:system/bin/akmd2 \
 	$(vendor_path)/bin/chat-ril:system/bin/chat-ril \
 	$(vendor_path)/bin/ecckeyd:system/bin/ecckeyd \
