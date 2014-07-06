@@ -43,6 +43,9 @@ PRODUCT_COPY_FILES += \
 	$(vendor_path)/lib/libscalado.so:system/lib/libscalado.so \
 	$(vendor_path)/lib/libssmgr.so:system/lib/libssmgr.so \
 	$(vendor_path)/lib/libaudio.so:system/lib/libaudio.so \
+	$(vendor_path)/lib/libaudiopolicy.so:system/lib/libaudiopolicy.so \
+	$(vendor_path)/lib/libextdisp.so:system/lib/libextdisp.so \
+	$(vendor_path)/lib/libhdmi.so:system/lib/libhdmi.so \
 	$(vendor_path)/lib/libcamera.so:system/lib/libcamera.so \
 	$(vendor_path)/lib/libsmiledetect.so:system/lib/libsmiledetect.so \
 	$(vendor_path)/lib/libarcsoft.so:system/lib/libarcsoft.so \
@@ -91,7 +94,12 @@ PRODUCT_COPY_FILES += \
 	$(vendor_path)/lib/dsp/720p_h264venc_sn.dll64P:system/lib/dsp/720p_h264venc_sn.dll64P \
 	$(vendor_path)/lib/dsp/720p_mp4venc_sn.dll64P:system/lib/dsp/720p_mp4venc_sn.dll64P \
 
-#Moto etc
+# Frameworks
+PRODUCT_COPY_FILES += \
+	$(vendor_path)/framework/com.motorola.android.iextdispservice.jar:system/framework/com.motorola.android.iextdispservice.jar \
+	$(vendor_path)/framework/com.motorola.android.nativehdmiapis_v1.jar:system/framework/com.motorola.android.nativehdmiapis_v1.jar
+
+# Moto etc
 PRODUCT_COPY_FILES += \
         $(vendor_path)/etc/cameraCalFileDef5M.bin:system/etc/cameraCalFileDef5M.bin \
         $(vendor_path)/etc/cameraCalFileDef8M.bin:system/etc/cameraCalFileDef8M.bin \
@@ -106,7 +114,9 @@ PRODUCT_COPY_FILES += \
         $(vendor_path)/etc/smc_pa.ift:system/etc/smc_pa.ift \
         $(vendor_path)/etc/smc_pa_pk_4_ipa.bin:system/etc/smc_pa_pk_4_ipa.bin \
         $(vendor_path)/etc/supportedlocales.conf:system/etc/supportedlocales.conf \
-        $(vendor_path)/etc/vzwpubagps.cer:system/etc/vzwpubagps.cer
+        $(vendor_path)/etc/vzwpubagps.cer:system/etc/vzwpubagps.cer \
+        $(vendor_path)/etc/permissions/com.motorola.android.iextdispservice.xml:system/etc/permissions/com.motorola.android.iextdispservice.xml \
+        $(vendor_path)/etc/permissions/com.motorola.android.nativehdmiapis_v1.xml:system/etc/permissions/com.motorola.android.nativehdmiapis_v1.xml
 
 # TI SGX DDK 1.8 ES 5.x
 PRODUCT_COPY_FILES += \
@@ -142,11 +152,12 @@ PRODUCT_COPY_FILES += \
 	$(vendor_path)/bin/testpppd:system/bin/testpppd \
 	$(vendor_path)/bin/battd:system/bin/battd
 
-#app
+# app
 PRODUCT_COPY_FILES += \
 	$(vendor_path)/app/AudioEffectSettings.apk:system/app/AudioEffectSettings.apk \
-	$(vendor_path)/app/CompassCalibrate.apk:system/app/CompassCalibrate.apk
+	$(vendor_path)/app/CompassCalibrate.apk:system/app/CompassCalibrate.apk \
+	$(vendor_path)/app/ExtDispService.apk:system/app/ExtDispService.apk
 
-#extra
+# extra
 PRODUCT_COPY_FILES += \
 	$(vendor_path)/media/Moto.ogg:system/media/audio/ringtones/Moto.ogg
