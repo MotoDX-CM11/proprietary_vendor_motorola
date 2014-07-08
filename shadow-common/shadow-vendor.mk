@@ -34,7 +34,6 @@ PRODUCT_COPY_FILES += \
 	$(vendor_path)/lib/libmotodbgutils.so:system/lib/libmotodbgutils.so \
 	$(vendor_path)/lib/libPERF.so:system/lib/libPERF.so \
 	$(vendor_path)/lib/libOMX.TI.720P.Decoder.so:system/lib/libOMX.TI.720P.Decoder.so \
-	$(vendor_path)/lib/libOMX.TI.720P.Encoder.so:system/lib/libOMX.TI.720P.Encoder.so \
 	$(vendor_path)/lib/libOMX.TI.JPEG.Encoder.so:system/lib/libOMX.TI.JPEG.Encoder.so \
 	$(vendor_path)/lib/libnativedrm1.so:system/lib/libnativedrm1.so \
 	$(vendor_path)/lib/libpkip.so:system/lib/libpkip.so \
