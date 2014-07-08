@@ -18,7 +18,7 @@ vendor_path = vendor/motorola/shadow-common
 PRODUCT_COPY_FILES += \
 	$(vendor_path)/lib/libaudio.so:obj/lib/libaudio.so \
 	$(vendor_path)/lib/libcamera.so:obj/lib/libcamera.so \
-	$(vendor_path)/lib/libmoto_ril.so:obj/lib/libril_rds.so \
+	$(vendor_path)/lib/libril_rds.so:obj/lib/libril_rds.so \
 	$(vendor_path)/lib/libbattd.so:system/lib/libbattd.so \
 	$(vendor_path)/lib/libcaps.so:system/lib/libcaps.so \
 	$(vendor_path)/lib/libcryptoki.so:system/lib/libcryptoki.so \
@@ -53,9 +53,6 @@ PRODUCT_COPY_FILES += \
 	$(vendor_path)/lib/librds_util.so:system/lib/librds_util.so \
 	$(vendor_path)/lib/libpppd_plugin-ril.so:system/lib/libpppd_plugin-ril.so \
 	$(vendor_path)/lib/libmotdb.so:system/lib/libmotdb.so \
-	$(vendor_path)/lib/libssmgr.so:system/lib/libssmgr.so \
-	$(vendor_path)/lib/libOMX.TI.mp4.splt.Encoder.so:system/lib/libOMX.TI.mp4.splt.Encoder.so \
-	$(vendor_path)/lib/libOMX.TI.h264.splt.Encoder.so:system/lib/libOMX.TI.h264.splt.Encoder.so \
 	$(vendor_path)/lib/libFMRadio.so:system/lib/libFMRadio.so \
 	$(vendor_path)/lib/libfmradio_jni.so:system/lib/libfmradio_jni.so \
 	$(vendor_path)/lib/libfmradioplayer.so:system/lib/libfmradioplayer.so \
