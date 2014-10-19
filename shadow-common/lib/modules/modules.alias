@@ -1,4 +1,0 @@
-alias char-major-10-200 tun
-alias TIWLAN_SDIO tiwlan_drv
-alias TIWLAN_SDIO tiap_drv
-alias gannet kineto_gan
